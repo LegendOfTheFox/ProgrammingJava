@@ -1,0 +1,140 @@
+/* CSS Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,ul,li {
+	margin:0;
+    color:black;
+    background-color:#F7F5E6;
+    font-family: 'Questrial', sans-serif;
+    list-style-type:none;
+}
+
+nav.loginbar {
+    background-color:black;
+    color: antiquewhite;
+    height: 2em;
+    text-align: right;
+    padding-top: 1em;
+    position:fixed;
+    width:100%;
+}
+
+a{
+    padding-right: .25em;
+    padding-left: .25em;
+     color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+}
+
+main {
+    padding-top: 7em;
+}
+
+footer {
+/*
+    background-color: black;
+    color:white;
+    height: 8em;
+*/
+}
+
+footer div.container{
+    background-color: #333A56;
+    margin-top:.5em;
+    margin-right: 1em;
+    font-size: 1.25em;
+    float:right;
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    text-shadow: 3px 3px 1px grey;
+}
+
+h2 {
+    padding:.5em;
+}
+
+ul, ul a {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color:black;
+}
+
+li {
+    padding-left: 1em;
+    list-style-type:disc;
+    
+}
+
+p {
+    color:white;
+    padding-top: .5em;
+    background-color:black;
+}
+
+section {
+    background-color:grey;
+    padding: 4em;
+    margin-bottom: 2em;
+    margin-left: 5%;
+    width:80%;
+    border-radius: 20px;
+    
+    
+}
+
+article, h2 {
+    box-shadow: 10px 10px 5px black;
+}
+
+article p{
+    padding-left:1em;
+    padding-bottom: 0.5em;
+    
+}
+
+table {
+    background-color: black;
+    margin-left:4em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    box-shadow: 10px 10px 5px black;
+}
+
+th {
+    background-color:black;
+    color:white;
+    padding:1em;
+}
+
+td {
+    background-color:grey;
+    text-align-last: center;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+td a{
+    background-color:grey;
+    color:black;
+    font-weight: bold;
+}
+
+div a{
+   color:black;
+}
+
+td a:hover {
+    color:blue;
+    
+}
+
+
